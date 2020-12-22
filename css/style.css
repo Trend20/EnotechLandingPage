@@ -233,6 +233,10 @@ header nav ul li a{
     width: 90%;
     background: #fff;
     color: #000;
+    padding: 5px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
 }
 
 .details img{
@@ -242,4 +246,44 @@ header nav ul li a{
 
 .details p{
     width: 100%;
+}
+
+#html img{
+    display: flex;
+    width: 30%;
+    padding-top: 30px;
+}
+
+#html p{
+    margin-top: 30px;
+}
+#css img{
+    display: flex;
+    width: 21%;
+    padding-top: 30px;
+}
+#javascript img{
+    display: flex;
+    width: 25%;
+    padding-top: 30px;
+}
+#react img{
+    display: flex;
+    width: 30%;
+    padding-top: 30px;
+}
+#vscode img{
+    display: flex;
+    width: 20%;
+    padding-top: 30px;
+}
+#github img{
+    display: flex;
+    width: 32%;
+    padding-top: 30px;
+}
+#terminal img{
+    display: flex;
+    width: 21%;
+    padding-top: 30px;
 }
