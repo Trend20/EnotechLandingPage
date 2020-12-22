@@ -185,3 +185,61 @@ header nav ul li a{
     cursor: pointer;
     color: rgb(12, 232, 240);
 }
+
+
+/* technologies */
+
+.technologies{
+    display: flex;
+    margin-top: 120px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+    width: 100%;
+}
+
+
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.heading h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-transform: uppercase;
+}
+
+.languages{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 50px;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    background: #fff;
+    color: #000;
+}
+
+.details img{
+    width: 50%;
+    display: flex;
+}
+
+.details p{
+    width: 100%;
+}
