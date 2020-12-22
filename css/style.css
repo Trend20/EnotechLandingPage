@@ -222,7 +222,7 @@ header nav ul li a{
 .languages{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-row-gap: 50px;
+    grid-row-gap: 10px;
     width: 90%;
     justify-content: center;
     align-items: center;
@@ -243,6 +243,7 @@ header nav ul li a{
     border-radius: 10px;
     cursor: pointer;
 }
+
 
 .details img{
     width: 50%;
