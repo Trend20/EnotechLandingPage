@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     font-size: 18px;
     font-family: 'Roboto', sans-serif;
@@ -223,6 +227,7 @@ header nav ul li a{
     justify-content: center;
     align-items: center;
     padding-top: 100px;
+    padding-bottom: 30px;
 }
 
 .details{
@@ -231,8 +236,8 @@ header nav ul li a{
     justify-content: center;
     align-items: center;
     width: 90%;
-    background: #fff;
-    color: #000;
+    background: rgb(87, 127, 212);
+    color: rgb(248, 248, 248);
     padding: 5px;
     border: none;
     border-radius: 10px;
@@ -242,15 +247,20 @@ header nav ul li a{
 .details img{
     width: 50%;
     display: flex;
+    mix-blend-mode: multiply;
 }
 
 .details p{
     width: 100%;
+    font-weight: 300;
+    opacity: 0.8;
+    line-height: 1.5;
+    font-size: 1rem;
 }
 
 #html img{
     display: flex;
-    width: 30%;
+    width: 23%;
     padding-top: 30px;
 }
 
@@ -259,31 +269,57 @@ header nav ul li a{
 }
 #css img{
     display: flex;
-    width: 21%;
+    width: 18%;
     padding-top: 30px;
+}
+
+#css p{
+    margin-top: 20px;
 }
 #javascript img{
     display: flex;
-    width: 25%;
+    width: 21%;
     padding-top: 30px;
 }
+
+#javascript p{
+    margin-top: 30px;
+}
+
+
 #react img{
     display: flex;
     width: 30%;
     padding-top: 30px;
+}
+
+#react p{
+    margin-top: 45px;
 }
 #vscode img{
     display: flex;
     width: 20%;
     padding-top: 30px;
 }
+
+#vscode p{
+    margin-top: 45px;
+}
 #github img{
     display: flex;
     width: 32%;
     padding-top: 30px;
 }
+
+#github p{
+    margin-top: 48px;
+}
 #terminal img{
     display: flex;
-    width: 21%;
+    width: 25%;
     padding-top: 30px;
+}
+
+#terminal p{
+    margin-top: 48px;
 }
