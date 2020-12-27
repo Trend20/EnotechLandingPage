@@ -380,4 +380,36 @@ header nav ul li a{
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
     padding: 10px;
+    width: 100%;
 }
+
+.price{
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    justify-content: center;
+    align-items: center;
+    background: #55b95a;
+    width: 100%;
+}
+
+
+.price h1{
+    font-size: 3rem;
+    line-height: 2;
+}
+.price p{
+    font-size: 1rem;
+    font-weight: 300;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px 0px;
+}
+
+sup,
+sub{
+    font-size: 1.2rem;
+    line-height: 3;
+}
+
