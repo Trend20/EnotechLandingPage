@@ -386,7 +386,7 @@ header nav ul li a{
 .price{
     display: flex;
     flex-direction: column;
-    padding-top: 30px;
+    padding-top: 20px;
     justify-content: center;
     align-items: center;
     background: #55b95a;
@@ -443,7 +443,7 @@ sub{
     justify-content: center;
     align-items: center;
     width: 100%;
-    padding: 10px;
+    padding: 15px;
     cursor: pointer;
     color: #fff;
     border-bottom-left-radius: 10px;
@@ -451,8 +451,14 @@ sub{
     border: none;
 }
 
-#per-booking{
-    
+#btn-personal{
+    background: #8a8cdc;
+}
+#btn-professional{
+    background: #6bce9c;
+}
+#btn-business{
+    background: #0504aa;
 }
 
 #personal{
