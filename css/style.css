@@ -254,7 +254,7 @@ header nav ul li a{
 .details p{
     width: 100%;
     font-weight: 300;
-    opacity: 0.8;
+    opacity: 1;
     line-height: 1.5;
     font-size: 1rem;
 }
@@ -323,4 +323,26 @@ header nav ul li a{
 
 #terminal p{
     margin-top: 48px;
+}
+
+
+/* pricing styles */
+.pricing{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    color: #fff;
+    width: 100%;
+}
+
+.pricing h3{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
