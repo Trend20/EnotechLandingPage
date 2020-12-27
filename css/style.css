@@ -366,7 +366,7 @@ header nav ul li a{
     align-items: center;
     width: 90%;
     height: auto;
-    background: #000;
+    background: #fff;
     cursor: pointer;
     border-radius: 10px;
 }
@@ -430,20 +430,49 @@ sub{
     text-align: center;
     width: 50%;
     margin: auto;
+    color: #000;
 }
 
 .todos i{
     margin-right: 15px;
 }
 
-#booking{
+.booking{
     margin-top: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 30%;
+    width: 100%;
     padding: 10px;
-    margin-bottom: 20px;
     cursor: pointer;
     color: #fff;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: none;
+}
+
+#per-booking{
+    
+}
+
+#personal{
+    background: #6a6cc5;
+}
+
+#personal-price{
+    background: #8a8cdc;
+}
+#professional{
+    background: #2c9962;
+}
+#professional-price{
+    background: #6bce9c;
+}
+
+#business{
+    background: #070a95;
+}
+
+#business-price{
+    background: #0504aa;
 }
