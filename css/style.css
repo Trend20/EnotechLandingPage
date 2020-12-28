@@ -484,3 +484,41 @@ sub{
 #business-price{
     background: #0504aa;
 }
+
+
+/* services */
+.services{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+    color: #fff;
+}
+
+.services-head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+}
+
+.services-head h3{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+.services-head p{
+    display: flex;
+    justify-content: center;
+    width: 40%;
+    text-align: center;
+    align-items: center;
+    font-size: 1rem;
+    margin-top: 10px;
+}
