@@ -10,7 +10,8 @@ html{
 
 body{
     font-size: 18px;
-    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'Raleway', sans-serif;
     background: #1a4ec7;
 }
 
@@ -427,8 +428,9 @@ sub{
 .todos p{
     display: flex;
     align-items: center;
+    justify-content: space-between;
     text-align: center;
-    width: 50%;
+    width: 60%;
     margin: auto;
     color: #000;
 }
@@ -494,6 +496,7 @@ sub{
     width: 100%;
     flex-direction: column;
     color: #fff;
+    margin-top: 50px;
 }
 
 .services-head{
@@ -521,4 +524,49 @@ sub{
     align-items: center;
     font-size: 1rem;
     margin-top: 10px;
+}
+
+.service-container{
+    display: flex;
+    margin-top: 100px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.service-contents{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+}
+
+.service-contents i{
+    font-size: 3rem;
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    padding: 30px;
+}
+
+.service-contents h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 30px;
+    font-weight: 500;
+}
+.service-contents p{
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    text-align: center;
+    align-items: center;
+    margin-top: 20px;
+    opacity: 0.7;
 }
