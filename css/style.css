@@ -594,7 +594,9 @@ sub{
     align-items: center;
     width: 100%;
     flex-direction: column;
-    color: #fff;
+    color: #000;
+    background: #fff;
+    padding-top: 20px;
 }
 
 .contact-us h3{
@@ -625,6 +627,57 @@ sub{
 .form-inputs{
     display: flex;
     width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.input-field{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 30%;
+    padding: 10px;
+    border: 1px solid rgb(211, 205, 205);
+}
+
+.input-field i{
+    display: flex;
+    color:  rgb(104, 101, 101);
     justify-content: center;
     align-items: center;
 }
+
+.input-field input{
+    display: flex;
+    color:  rgb(211, 205, 205);
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    width: 90%;
+    padding: 15px;
+    outline: none;
+    border: none;
+    background: none;
+}
+
+.input-field input::placeholder{
+    font-size: 1rem;
+    color:  rgb(104, 101, 101);
+    opacity: 0.6;
+    font-weight: 600;
+}
+
+.message{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.message i{
+    display: flex;
+    color:  rgb(104, 101, 101);
+    justify-content: center;
+    align-items: center;
+}
+
