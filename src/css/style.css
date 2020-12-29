@@ -713,4 +713,31 @@ sub{
     background: rgb(255, 145, 0);
 }
 
+#footer{
+    display: flex;
+    padding-top: 30px;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-icons{
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-icons i{
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+#footer p{
+    margin-top: 30px;
+    padding-bottom: 20px;
+}
+
 
