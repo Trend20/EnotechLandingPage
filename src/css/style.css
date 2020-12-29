@@ -730,14 +730,18 @@ sub{
 }
 
 .footer-icons i{
-    color: #fff;
+    color: rgb(235, 235, 235);
+    opacity: 0.6;
     display: flex;
     align-items: center;
+    background: transparent;
 }
 
 #footer p{
     margin-top: 30px;
     padding-bottom: 20px;
+    color: #fff;
+    font-weight: 300;
 }
 
 
