@@ -1270,7 +1270,7 @@ sub{
     .services-head p{
         display: flex;
         justify-content: center;
-        width: 40%;
+        width: 100%;
         text-align: center;
         align-items: center;
         font-size: 1rem;
@@ -1282,6 +1282,7 @@ sub{
         margin: 80px 0px;
         width: 100%;
         align-items: center;
+        flex-direction: column;
         justify-content: center;
     }
     
@@ -1290,7 +1291,8 @@ sub{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        width: 25%;
+        width: 100%;
+        margin-top: 20px;
     }
     
     .service-contents i{
@@ -1348,7 +1350,7 @@ sub{
         color: #000;
         background: #fff;
         padding-top: 20px;
-        padding-bottom: 40px;
+        padding-bottom: 10px;
     }
     
     .contact-us h3{
@@ -1382,6 +1384,7 @@ sub{
         display: flex;
         width: 100%;
         justify-content: space-around;
+        flex-direction: column;
         align-items: center;
     }
     
@@ -1389,7 +1392,8 @@ sub{
         display: flex;
         align-items: center;
         justify-content: flex-start;
-        width: 30%;
+        width: 90%;
+        margin-top: 10px;
         padding: 8px;
         border: 1px solid rgb(211, 205, 205);
     }
@@ -1426,7 +1430,7 @@ sub{
         justify-content: center;
         align-items: flex-start;
         width: 95%;
-        margin-top: 30px;
+        margin-top: 10px;
         border: 1px solid rgb(211, 205, 205);
     }
     
