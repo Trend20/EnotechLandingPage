@@ -1571,7 +1571,7 @@ sub{
         margin-top: 15px;
         position: absolute;
         top: 3%;
-        right: 5%;
+        right: -80%;
         display: block;
     }
     
@@ -2324,7 +2324,9 @@ sub{
         width: 50%;
         justify-content: flex-end;
         align-items: flex-end;
-        cursor: pointer;
+        position: absolute;
+        top: 3%;
+        right: 5%;
         padding-top: 30px;
     }
     
