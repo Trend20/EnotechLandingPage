@@ -747,8 +747,9 @@ sub{
     display: none;
     position: fixed;
     bottom: 10px;
+    width: 5%;
     right: 10px;
-    background-color: #501b1b;
+    background-color: #7e7575;
     outline: none;
     cursor: pointer;
     border: none;
@@ -1517,6 +1518,29 @@ sub{
         color: #fff;
         font-weight: 300;
     }
+
+    #myBtn{
+        display: none;
+        position: fixed;
+        justify-content: center;
+        align-items: center;
+        bottom: 10px;
+        width: 20%;
+        right: 10px;
+        background-color: #7e7575;
+        outline: none;
+        cursor: pointer;
+        border: none;
+        border-radius: 7px;
+        z-index: 99;
+        font-size: 18px;
+        color: #fff;
+        padding: 10px;
+        transition: ease .5s;
+    }
+    #myBtn:hover{
+        background-color: #555;
+    }    
     
 }
 
@@ -2277,7 +2301,30 @@ sub{
         color: #fff;
         font-weight: 300;
     }
+   
     
+    #myBtn{
+        display: none;
+        position: fixed;
+        justify-content: center;
+        align-items: center;
+        bottom: 10px;
+        width: 20%;
+        right: 10px;
+        background-color: #7e7575;
+        outline: none;
+        cursor: pointer;
+        border: none;
+        border-radius: 7px;
+        z-index: 99;
+        font-size: 18px;
+        color: #fff;
+        padding: 10px;
+        transition: ease .5s;
+    }
+    #myBtn:hover{
+        background-color: #555;
+    }    
 }
 
 
