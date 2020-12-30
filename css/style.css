@@ -1527,6 +1527,7 @@ sub{
         flex-direction: column;
         align-items: flex-start;
         padding: 0px;
+        display: none;
     }
     
     .navbar ul{
@@ -2286,6 +2287,7 @@ sub{
         flex-direction: column;
         align-items: flex-start;
         padding: 0px;
+        display: none;
     }
     
     .navbar ul{
