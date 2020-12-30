@@ -62,7 +62,7 @@ header{
     font-size: 1rem;
 }
 
-.active{
+#active{
     color: rgb(12, 232, 240);
 }
 
@@ -743,6 +743,25 @@ sub{
     font-weight: 300;
 }
 
+#myBtn{
+    display: none;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background-color: #501b1b;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    border-radius: 7px;
+    z-index: 99;
+    font-size: 18px;
+    color: #fff;
+    padding: 10px;
+    transition: ease .5s;
+}
+#myBtn:hover{
+    background-color: #555;
+}
 
 /* mobile responsive */
 
