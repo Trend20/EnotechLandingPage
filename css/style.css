@@ -1833,7 +1833,7 @@ header{
 
 
 /* laptops */
-@media only screen and (min-width: 769px){
+@media only screen and (min-width: 769px) and (max-width: 1200px){
 /* header styles */
 header{
     display: flex;
