@@ -327,6 +327,8 @@ header{
     margin-top: 48px;
 }
 
+/* end of technologies section styles */
+
 
 /* pricing styles */
 .pricing{
@@ -948,6 +950,61 @@ header{
 
 /* end of content styles */
 
+/* technologies */
+
+.technologies{
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+    width: 100%;
+}
+
+
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.heading h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+.languages{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    background: rgb(87, 127, 212);
+    color: rgb(248, 248, 248);
+    padding: 5px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+/* end of technologes responsive styles */
 
 }
 
