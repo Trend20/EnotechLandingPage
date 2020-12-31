@@ -588,7 +588,10 @@ sub{
     color: rgb(255, 255, 255);
     background: rgb(25, 224, 208);
 }
+/* end of services section */
 
+
+/* contact us section */
 .contact-us{
     display: flex;
     margin-top: 50px;
@@ -1004,7 +1007,119 @@ header{
     margin-top: 20px;
 }
 
+/* pricing styles */
+.pricing{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 0px;
+    color: #fff;
+    width: 100%;
+}
+
+.pricing h3{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.price-cards{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 0px;
+}
+
+.card-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: auto;
+    background: #fff;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-top: 20px;
+}
 /* end of technologes responsive styles */
+
+/* services */
+.services{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+    color: #fff;
+    margin-top: 30px;
+}
+
+.services-head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+}
+
+.services-head h3{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+.services-head p{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+.service-container{
+    display: flex;
+    flex-direction: column;
+    margin: 80px 0px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.service-contents{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.service-contents i{
+    font-size: 3rem;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    padding: 40px;
+}
+
+
 
 }
 
